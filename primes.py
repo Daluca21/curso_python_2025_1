@@ -1,10 +1,10 @@
 n = int(input())
 prime = True
-for i in range(2, n): #2 n-1
+for i in range(2, n): #2,n-1
     if n%i == 0:
         prime = False   
 
-for i in range(1, n+1): #2 n-1
+for i in range(1, n+1): #1,n
     if n%i == 0:
         print(i, "es divisor de", n)   
 

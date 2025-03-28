@@ -1,9 +1,10 @@
 n = int(input())
-bn = 0
+base = 8
+conversion = 0
 mul = 1
 while n > 0:
-    print(n%2)
-    bn += n%2*mul
+    res = n%base
+    n = n//base
+    conversion += res*mul
     mul *= 10
-    n = n//2
-print(bn)
+print(conversion)

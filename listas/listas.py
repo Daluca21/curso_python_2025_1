@@ -9,7 +9,7 @@ for i in range(4, -1, -1): #(4, 0, -1)
 for i in range(-1, -6, -1): #(-1, -5, -1)
     print(lista[i])
 
-sublista = lista[:4:2]
+sublista = lista[1:4:2]
 print("Elementos sublista")
 for i in range(len(sublista)):
     print(sublista[i])
@@ -67,10 +67,6 @@ lista = [10, "Nombre"]
 print(lista)
 for x in lista:
     print(x*10)
-
-
-
-
 
 
 
